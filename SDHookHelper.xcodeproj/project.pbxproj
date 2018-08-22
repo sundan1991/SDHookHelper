@@ -14,6 +14,9 @@
 		16D50AE7212D4B79000EB967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D50AE5212D4B79000EB967 /* LaunchScreen.storyboard */; };
 		16D50AEA212D4B79000EB967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D50AE9212D4B79000EB967 /* main.m */; };
 		16D50AF4212D4B79000EB967 /* SDHookHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D50AF3212D4B79000EB967 /* SDHookHelperTests.m */; };
+		16D50B04212D4B96000EB967 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D50B00212D4B95000EB967 /* TestClass.m */; };
+		16D50B05212D4B96000EB967 /* NSObject+SDHookHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D50B01212D4B96000EB967 /* NSObject+SDHookHelper.m */; };
+		16D50B06212D4B96000EB967 /* SuperTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D50B02212D4B96000EB967 /* SuperTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		16D50AEF212D4B79000EB967 /* SDHookHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDHookHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D50AF3212D4B79000EB967 /* SDHookHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDHookHelperTests.m; sourceTree = "<group>"; };
 		16D50AF5212D4B79000EB967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D50AFE212D4B95000EB967 /* NSObject+SDHookHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SDHookHelper.h"; sourceTree = "<group>"; };
+		16D50AFF212D4B95000EB967 /* SuperTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTestClass.h; sourceTree = "<group>"; };
+		16D50B00212D4B95000EB967 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		16D50B01212D4B96000EB967 /* NSObject+SDHookHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SDHookHelper.m"; sourceTree = "<group>"; };
+		16D50B02212D4B96000EB967 /* SuperTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTestClass.m; sourceTree = "<group>"; };
+		16D50B03212D4B96000EB967 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				16D50ADA212D4B79000EB967 /* AppDelegate.h */,
 				16D50ADB212D4B79000EB967 /* AppDelegate.m */,
+				16D50AFE212D4B95000EB967 /* NSObject+SDHookHelper.h */,
+				16D50B01212D4B96000EB967 /* NSObject+SDHookHelper.m */,
 				16D50ADD212D4B79000EB967 /* ViewController.h */,
 				16D50ADE212D4B79000EB967 /* ViewController.m */,
+				16D50AFF212D4B95000EB967 /* SuperTestClass.h */,
+				16D50B02212D4B96000EB967 /* SuperTestClass.m */,
+				16D50B03212D4B96000EB967 /* TestClass.h */,
+				16D50B00212D4B95000EB967 /* TestClass.m */,
 				16D50AE0212D4B79000EB967 /* Main.storyboard */,
 				16D50AE3212D4B79000EB967 /* Assets.xcassets */,
 				16D50AE5212D4B79000EB967 /* LaunchScreen.storyboard */,
@@ -204,8 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D50B04212D4B96000EB967 /* TestClass.m in Sources */,
 				16D50ADF212D4B79000EB967 /* ViewController.m in Sources */,
+				16D50B06212D4B96000EB967 /* SuperTestClass.m in Sources */,
 				16D50AEA212D4B79000EB967 /* main.m in Sources */,
+				16D50B05212D4B96000EB967 /* NSObject+SDHookHelper.m in Sources */,
 				16D50ADC212D4B79000EB967 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
